@@ -17,4 +17,4 @@ features:
   - studio  # Remove this line if your keyboard will not support ZMK Studio
 
 requires:
-  - esp32c3_devkitm
+  - nice_nano
