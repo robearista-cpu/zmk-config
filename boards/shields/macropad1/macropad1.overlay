@@ -4,7 +4,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "macropad1-layouts.dtsi"
+//#include "macropad1-layouts.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
