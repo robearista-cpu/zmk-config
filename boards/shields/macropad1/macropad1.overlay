@@ -11,11 +11,11 @@
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
-        input-gpios = <&gpio0 0 GPIO_ACTIVE_LOW | GPIO_PULL_UP>,
-                     <&gpio0 1 GPIO_ACTIVE_LOW | GPIO_PULL_UP>,
-                     <&gpio0 2 GPIO_ACTIVE_LOW | GPIO_PULL_UP>,
-                     <&gpio0 3 GPIO_ACTIVE_LOW | GPIO_PULL_UP>,
-                     <&gpio0 4 GPIO_ACTIVE_LOW | GPIO_PULL_UP>,
-                     <&gpio0 5 GPIO_ACTIVE_LOW | GPIO_PULL_UP>;
+        input-gpios = <&gpio0 0 GPIO_ACTIVE_LOW>,
+                     <&gpio0 1 GPIO_ACTIVE_LOW>,
+                     <&gpio0 2 GPIO_ACTIVE_LOW>,
+                     <&gpio0 3 GPIO_ACTIVE_LOW>,
+                     <&gpio0 4 GPIO_ACTIVE_LOW>,
+                     <&gpio0 5 GPIO_ACTIVE_LOW>;
     };
 };
