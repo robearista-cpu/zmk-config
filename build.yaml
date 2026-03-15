@@ -17,4 +17,15 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 #
+
+name: Build
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      board_2_0: '["seeed_xiao_esp32c3"]'
+      shield_2_0: '["macropad1"]'
 ---
