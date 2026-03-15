@@ -17,4 +17,4 @@ features:
   - studio  # Remove this line if your keyboard will not support ZMK Studio
 
 requires:
-  - seeed_xiao
+  - esp32c3_devkitc
