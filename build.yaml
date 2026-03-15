@@ -29,3 +29,6 @@ jobs:
       board_2_0: '["seeed_xiao_esp32c3"]'
       shield_2_0: '["macropad1"]'
 ---
+board: ["esp32c3_devkitm"]
+shield: ["macropad1"]
+
