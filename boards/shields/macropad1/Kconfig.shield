@@ -1,2 +1,2 @@
 config SHIELD_MACROPAD1
-    def_bool $(shields_list_contains,macropad1)
+    def_bool $(shields_list_contains,m1)
